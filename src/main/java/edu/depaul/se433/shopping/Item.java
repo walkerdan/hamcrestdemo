@@ -1,15 +1,25 @@
 package edu.depaul.se433.shopping;
 
+/**
+ * Represents a purchasable item in a ShoppingCart
+ */
 public class Item {
 
   private int quantity;
   private double unitPrice;
   private String name;
 
-  public Item(String name, double unitPrice, int quantity) {
+  public String getState() {
+    return state;
+  }
+
+  private String state;
+
+  public Item(String name, double unitPrice, int quantity, String state) {
     this.quantity = quantity;
     this.unitPrice = unitPrice;
     this.name = name;
+    this.state = state;
   }
 
   public double value() {
