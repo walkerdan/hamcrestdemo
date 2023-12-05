@@ -10,7 +10,7 @@
 
   <properties>
     <junit.version>5.6.1</junit.version>
-    <logback.version>1.2.3</logback.version>
+    <logback.version>1.2.13</logback.version>
   </properties>
 
   <dependencies>
